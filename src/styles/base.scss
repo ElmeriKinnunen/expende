@@ -1,0 +1,32 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    &.center { align-items: flex-end;}
+    &.reverse {flex-direction: row-reverse;}
+}
+
+.flex-item {
+    flex: 0 1 auto;
+    width: 50%;
+    .one {width: 8.333333333%;}
+    .two {width: 16.666666666%;}
+    .fifth {width: 20%;}
+    .three {width: 25%;}
+    .four {width: 33.3333%;}
+    .five {width: 41.666666666%;}
+    .six {width: 50%;}
+    .seven {width: 58.333333333%;}
+    .eight {width: 66.6666666%}
+    .nine {width: 75%;}
+    .ten {width: 83.333333333%;}
+    .eleven {width: 91.666666%;}
+    .twelve {width: 100%;}
+}
+
+.wrap {
+    padding: 0 50px;
+    max-width: 1920px;
+    margin: 0 auto;
+}

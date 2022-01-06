@@ -1,0 +1,12 @@
+@import '../../styles/base.scss';
+@import '../../styles/partials.scss';
+
+.App {
+  h1 {
+    color: $primary-color;
+  }
+  footer {
+    text-align: center;
+    margin-top: calc(100vh - 40px);
+  }
+}
