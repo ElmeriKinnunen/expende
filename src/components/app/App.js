@@ -8,13 +8,18 @@ function App() {
         
       </header>
       <main>
-        <section className='payment-form'>
+        <section className='banner'>
           <div className='wrap'>
             <h1>Add payment</h1>
+          </div>
+        </section>
+        <section className='payment-form'>
+          <div className='wrap'>
             <form>
               <label>
                 Target:
                 <select>
+                  <option value='--'>-Select-</option>
                   <option value='shopping'>Shopping</option>
                   <option value='grocery'>Grocery</option>
                   <option value='car'>Car</option>
@@ -28,6 +33,7 @@ function App() {
               <label>
                 Category:
                 <select>
+                  <option value='--'>--</option>
                   <option value='mandatory'>Mandatory</option>
                   <option value='nonmandatory'>Nonmandatory</option>
                 </select>
@@ -43,6 +49,7 @@ function App() {
                 Description:
                 <input type='text' name='comment' />
               </label>
+              <input className='submit' type='submit' value='Add payment' />
             </form>
           </div>
         </section>
